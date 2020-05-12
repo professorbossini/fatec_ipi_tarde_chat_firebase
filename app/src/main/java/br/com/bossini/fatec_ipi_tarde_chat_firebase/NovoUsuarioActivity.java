@@ -41,6 +41,7 @@ public class NovoUsuarioActivity extends AppCompatActivity {
             @Override
             public void onFailure(@NonNull Exception e) {
                 e.printStackTrace();
+                Toast.makeText(NovoUsuarioActivity.this, "erro: " + e.getMessage(), Toast.LENGTH_LONG).show();
             }
         });
     }

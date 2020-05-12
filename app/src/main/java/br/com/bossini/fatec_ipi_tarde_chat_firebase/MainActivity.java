@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         }).addOnFailureListener(this, new OnFailureListener() {
             @Override
             public void onFailure(@NonNull Exception e) {
-                e.printStackTrace();;
+                e.printStackTrace();
             }
         });
     }
